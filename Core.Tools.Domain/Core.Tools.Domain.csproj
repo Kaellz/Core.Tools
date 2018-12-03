@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\Account.cs" />
+    <Compile Include="Base\Entity.cs" />
     <Compile Include="Features\Controls\Config.cs" />
+    <Compile Include="Features\Controls\IConfigRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

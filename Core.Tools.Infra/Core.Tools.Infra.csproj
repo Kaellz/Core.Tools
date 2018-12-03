@@ -41,7 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\TxtMaker.cs" />
+    <Compile Include="Features\Configs\ConfigRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Tools.Domain\Core.Tools.Domain.csproj">
+      <Project>{D32835C9-F448-4DE3-8368-FBCAD175F5E3}</Project>
+      <Name>Core.Tools.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
