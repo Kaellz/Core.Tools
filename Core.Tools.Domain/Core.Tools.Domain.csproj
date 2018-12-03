@@ -41,9 +41,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base\Account.cs" />
+    <Compile Include="Features\Controls\ConfigSections\AttackSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\AutoBreakSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\AutoConfChangeSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\AvoidGMSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\AvoidListSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\CachePlayerSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\DCSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\FollowSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\ItemTakeSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\LockMapSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\LoginSettings.cs" />
     <Compile Include="Base\Entity.cs" />
     <Compile Include="Features\Controls\Config.cs" />
+    <Compile Include="Features\Controls\ConfigSections\OpenCashShopSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\PoseidonSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\RouteSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\SaveMapSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\SecureSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\ShopAutoSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\SitSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\StatsSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\TeleportSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\ThingsAutoSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\XKore2Settings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\XKoreSettings.cs" />
     <Compile Include="Features\Controls\IConfigRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
