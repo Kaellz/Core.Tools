@@ -41,7 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\Controls\ConfigSections\AnotherSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\AutoSwitchSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\BuyAutoSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\ChatTittleSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\ComboSlotSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\DevSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\DoCommandSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\DomainsAndStickingsSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\AttackSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\AutoBreakSettings.cs" />
@@ -50,7 +56,8 @@
     <Compile Include="Features\Controls\ConfigSections\AvoidListSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\CachePlayerSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\DCSettings.cs" />
-    <Compile Include="Features\Controls\ConfigSections\DealAuto.cs" />
+    <Compile Include="Features\Controls\ConfigSections\DealAutoSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\EquipAutoSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\FollowSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\HomunculusSupportSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\IgnoreSettings.cs" />
@@ -61,17 +68,24 @@
     <Compile Include="Base\Entity.cs" />
     <Compile Include="Features\Controls\Config.cs" />
     <Compile Include="Features\Controls\ConfigSections\MercenarySupportSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\MonsterSkillSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\OpenCashShopSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\PartySkillSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\PetSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\PoseidonSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\RepairSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\RouteSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\SaveMapSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\SecureSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\SelfItemSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\SelfSkillSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\SellAutoSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\ShopAutoSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\SitSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\SkillSlotSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\SleepSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\StatsSettings.cs" />
+    <Compile Include="Features\Controls\ConfigSections\StorageAutoSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\TeleportSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\ThingsAutoSettings.cs" />
     <Compile Include="Features\Controls\ConfigSections\XKore2Settings.cs" />

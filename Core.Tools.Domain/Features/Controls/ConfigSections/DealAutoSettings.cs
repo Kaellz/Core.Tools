@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.Tools.Domain.Features.Controls.ConfigSections
 {
-    class DealAuto
+    class DealAutoSettings
     {
         public string dealAuto { get; set; }
         public string dealAuto_names { get; set; }
